@@ -2,7 +2,7 @@
 
 ## Steps:
 
-### 1.	ng add @nguniversal/express-engine - - clientProject <angular-project-name>
+### 1.	ng add @nguniversal/express-engine --clientProject {angular-project-name}
 ### 2.	Test: npm run build:ssr
 ### 3.	Under the project main folder add a file named- Procfile, without any extension. It will be at the same hierarchy of package.json.
 ### 4.	Inside Procfile, write - 
