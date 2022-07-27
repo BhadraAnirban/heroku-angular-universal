@@ -11,7 +11,7 @@
   ```
 ### 5.	Inside package.json, under script object write –
 ```
-"start:heroku": "node dist/server",
+"start:heroku": "node dist/server/main.js",
     "postinstall": "npm run build:ssr"
 ```
 ### 6.	Push to github
